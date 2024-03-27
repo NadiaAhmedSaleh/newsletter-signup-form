@@ -1,0 +1,93 @@
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: #37384E !important;
+   
+}
+
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+  
+    max-width: 800px  !important;
+    
+}
+
+#card{
+    border-radius: 20px;
+}
+
+#card h2{
+    color: #222741;
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.card-text{
+    font-size: 14px;
+
+}
+
+
+.input .btn{
+    background-color: #222741;
+    color: white;
+}
+
+.input .btn:hover{
+    border-color: #222741;
+    transition: 0.5s;
+}
+
+.label{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+#emailAlert{
+    color: red;
+    font-size: 14px;
+   
+}
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    overflow: auto; /* Enable scroll if needed */
+    background-color:#222741; /* Fallback color */
+    /* Black w/ opacity */
+  }
+  
+
+ .thanks{
+    width: 400px;
+    height: 400px;
+ }
+  
+
+ #buttonn{
+    background-color: #222741;
+    border-color: #222741;
+    color: white;
+}
+
+#buttonn:hover{
+    background-color: white;
+    border-color: #222741;
+    color: #222741;
+    transition: 0.5s;
+
+}

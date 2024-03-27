@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+ 
+  
+<section class="container" >
+
+  <div class="card p-3 mx-auto mt-5" id="card" >
+    <div class="row g-3 ">
+     
+      <div class="col-md-6">
+        <div class="card-body mt-4">
+     
+
+            <h2>Stay updated!</h2>
+            <p class="card-text">Join 60,000+ product managers receiving monthly updates on: </p>
+             <div class="d-flex py-2"> <img class="pe-2" src="./assets/images/icon-list.svg" alt=""><p class="card-text"> Product discovery and building what matters</p> </div> 
+             <div class="d-flex py-2"> <img class="pe-2" src="./assets/images/icon-list.svg" alt="">  <p class="card-text"> Measuring to ensure updates are a success</p> </div> 
+             <div class="d-flex py-2"> <img class="pe-2" src="./assets/images/icon-list.svg" alt=""><p class="card-text">  And much more!</p></div> 
+   
+     
+         
+           <div class="input mt-2" >
+      
+            <div class="label">
+            <label for="email" > <b>Email Address</b></label>
+            <label for="" id="emailAlert" class="d-none" >Valid email required</label>
+            </div>
+           
+            <input type="email" class="form-control mb-3" placeholder=" email@company.com"  id="emailInput">
+         
+            <button class="btn form-control py-2"  onclick="subscribe()">Subscribe to monthly newsletter</button>
+         
+         
+           </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" class="img-fluid rounded-start" alt="...">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+<section>  
+
+<div id="myModal" class="modal">
+   
+  <div class="thanks mx-auto">
+    <div class="card p-4 " id="card" >
+    
+      <img src="./assets/images/icon-success.svg" class="w-25 img-fluid p-2" alt="">
+      <h2 class="p-2">Thanks for subscribing!</h2>
+      <p id="text"> </p>
+
+      <button class="form-control" id="buttonn" >Dismiss message</button>
+ 
+   </div>
+  </div>
+
+</div>
+</section>
+ 
+
+
+<script src="./js/index.js"></script>
+  
+</body>
+</html>
